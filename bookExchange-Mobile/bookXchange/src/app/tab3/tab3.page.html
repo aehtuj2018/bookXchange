@@ -1,0 +1,123 @@
+
+<ion-header >
+  <ion-toolbar>
+     <ion-title>  </ion-title>
+
+     <ion-text  color="ion-justify-content-center">
+      <div class="headerText ion-text-center"><h1 >Book Exchange</h1></div>
+      <div class="ion-text-center"><p>Lets share the knowledge with love!</p></div>
+    </ion-text>
+      
+  </ion-toolbar>
+</ion-header>
+
+<!-- <ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start" defaultHref="/tabs/(films:films)">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+    <ion-buttons slot="end">
+      <ion-button >
+        <ion-icon name="star" slot="icon-only" color="secondary"></ion-icon>
+      </ion-button>
+      <ion-button  >
+        <ion-icon name="star-outline" slot="icon-only" color="secondary"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar> 
+</ion-header>
+
+<ion-content padding>
+ 
+  <ion-card >
+    <ion-card-header>Book Title </ion-card-header>
+    <ion-card-content>
+     
+    </ion-card-content>
+ 
+    <ion-item  lines="none">
+      <ion-icon name="film" slot="start"></ion-icon>
+      Director: 
+    </ion-item>
+ 
+    <ion-item  lines="none">
+      <ion-icon name="calendar" slot="start"></ion-icon>
+      Release Date: 
+    </ion-item>
+  </ion-card>
+ 
+  <ion-button expand="full" >Share by Email</ion-button>
+</ion-content> -->
+<div class="container">
+
+  <form>
+    <ion-grid>
+      <ion-row>
+        <ion-col size-lg="4" size-md="6" size-sm="12" size="12">
+          <ion-item>
+            <ion-label position="floating">Name</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size-lg="4" size-md="6" size-sm="12" size="12">
+          <ion-item>
+            <ion-label position="floating">Email</ion-label>
+            <ion-input type="email"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size-lg="4" size-md="6" size-sm="12" size="12">
+          <ion-item>
+            <ion-label position="floating">Country</ion-label>
+            <ion-select value="usa" okText="Okay" cancelText="Dismiss">
+              <ion-select-option value="usa">United States</ion-select-option>
+              <ion-select-option value="india">India</ion-select-option>
+              <ion-select-option value="france">France</ion-select-option>
+              <ion-select-option value="spain">Spain</ion-select-option>
+              <ion-select-option value="brazil">Brazil</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-col>
+        <ion-col size-lg="4" size-md="6" size-sm="12" size="12">
+          <ion-item>
+            <ion-label position="floating">Choose City</ion-label>
+            <ion-select value="california" okText="Okay" cancelText="Dismiss">
+              <ion-select-option value="california">California</ion-select-option>
+              <ion-select-option value="illinois">Illinois</ion-select-option>
+              <ion-select-option value="texas">Texas</ion-select-option>
+              <ion-select-option value="pennsylvania">Pennsylvania</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-col>
+        <ion-col size-lg="4" size-md="6" size-sm="12" size="12">
+          <ion-item>
+            <ion-label position="floating">Address</ion-label>
+            <ion-textarea></ion-textarea>
+          </ion-item>
+        </ion-col>
+        <ion-col size-lg="4" size-md="6" size-sm="12" size="12">
+          <ion-item>
+            <ion-label position="floating">Postal Code</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size-lg="4" size-md="6" size-sm="12" size="12">
+          <ion-item>
+            <ion-label position="floating">Gender</ion-label>
+            <ion-select value="male" okText="Okay" cancelText="Dismiss">
+              <ion-select-option value="male">Male</ion-select-option>
+              <ion-select-option value="female">female</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-col>
+        <ion-col size-lg="4" size-md="6" size-sm="12" size="12">
+          <ion-item>
+            <ion-label position="floating">Age</ion-label>
+            <ion-input type="number"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+ 
+</div>

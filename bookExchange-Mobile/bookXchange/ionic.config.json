@@ -1,0 +1,7 @@
+{
+  "name": "bookXchange",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

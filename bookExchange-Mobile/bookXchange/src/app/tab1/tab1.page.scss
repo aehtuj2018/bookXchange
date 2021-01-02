@@ -1,0 +1,85 @@
+ion-toolbar
+{
+    --ion-text-color:#FEFEFE;
+    --ion-background-color:#0e3d84;
+}
+
+ion-grid
+{
+  background:#EAEAEA;
+}
+h1{
+  font-size: 50px;
+}
+
+a:hover {
+    text-decoration: none;  
+    font-weight: bold;
+  }
+  
+  .headerText {
+    font-family: "Lucida Calligraphy";
+    font-size: 40px;
+    color:#F4F5F8;
+    margin-bottom: 15px;
+    font-style: italic;
+  
+   
+    padding: 5px;
+    border: 5px;
+  
+    font-weight: bold;
+   
+    text-shadow: 1px 1px 1px #E84438, 2px 2px 1px#E84438;
+  }
+  
+  h3,
+  p {
+    font-family: "Lucida Calligraphy";
+    font-weight: bold;
+    
+  }
+  .headerBg {
+    background-color: #14a2b8;
+  }
+ 
+  .container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;  
+    background-color: #73A7F9;
+  }
+  ion-label
+  {
+    font-weight: bold;
+    --ion-background-color: #383a3e;
+    color:#800000;
+  }
+  ion-item,  ion-card-content
+  {
+ 
+  --ion-text-color:#ffffff;
+    --ion-background-color: #73A7F9;
+  }
+  ion-card,  ion-card-content
+  {
+    font-size: 14px;
+    color:#800000;
+ font-weight: bold;
+  }
+  ion-img
+  {
+    width: 50%;
+    height: 75%;
+    padding: 5px;
+  }
+  .abstract
+  {
+    font-family: "Arial, sans-serif";
+    font-size:12px;
+    font-style: regular ;
+    color:#000000;
+
+  }
+
+  

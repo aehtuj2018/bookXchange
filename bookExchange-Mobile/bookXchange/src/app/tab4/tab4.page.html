@@ -1,0 +1,84 @@
+<ion-header >
+  <ion-toolbar>
+     <ion-title>  </ion-title>         
+     <ion-text >
+      <div class="headerText ion-text-center"><h1 >Book Exchange</h1></div>
+      <div class="ion-text-center"><p>Lets share the knowledge with love!</p></div>
+    </ion-text>                
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content >
+
+<ion-grid >
+  <ion-row >
+    
+
+    <ion-col  size-lg="3" size-md="6" size-sm="12"  *ngFor="let book of books">
+      <ion-card style="padding:5px">
+        
+        <ion-item >
+          <ion-item >
+
+          </ion-item>
+         
+          <ion-label >
+            <span text-left><h3>{{book.title}}</h3></span>
+            <span text-left><h3>{{book.publish_date}}</h3></span>
+          </ion-label>
+        </ion-item>
+      
+        <ion-img [src]="book.image_source" alt="book image"></ion-img>
+        <span class="abstract" [innerHTML]="truncateChar(book.abstract)">{{book.abstract}} </span>     
+        <ion-footer>
+          <ion-row>
+            <ion-col center text-center>
+              
+                <ion-button color="primary" (click)="openDetails(book)">View</ion-button>
+              
+            </ion-col>
+          </ion-row>
+        </ion-footer>
+      
+    </ion-card>
+    </ion-col>   
+  </ion-row>
+</ion-grid>
+ 
+<!--
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col >
+        <ion-button expand="block">Books List</ion-button>
+
+        <ion-card>
+          <ion-card-header>
+           
+          </ion-card-header>
+
+          <ion-card-content>
+            <ion-list lines="full">
+              <ion-item *ngFor="let book of books" > 
+                
+                <ion-checkbox ></ion-checkbox>
+                
+                <ion-label>{{ book.title }} </ion-label>
+                <ion-button fill="outline" slot="end" >View</ion-button>
+
+                </ion-item>
+            </ion-list>
+            <ion-button expand="block" ><ion-icon name="layers-outline" ></ion-icon>Add Task</ion-button>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+  
+    </ion-row>
+  </ion-grid>
+
+-->
+  
+</ion-content>
+
+
